@@ -20,6 +20,10 @@ li{
     margin-right: 20px;
 }
 
+h2{
+    font-size: 48px;
+}
+
 .secrow{
 display:flex;
 justify-content: center;
@@ -41,3 +45,63 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+
+
+.thirdrow{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdrowtext{
+    
+}
+
+
+.thirdrowcont{
+    display:flex;
+    justify-content: center;
+    gap:35px;
+}
+
+.cubecont{
+    width:150px;
+    text-align: center;
+}
+
+.cube{
+    height: 150px;
+    width: 150px;
+    border: 1px solid blue;
+}
+
+
+
+.fourthrow{
+background-color: lightgray;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.fourthrowcont{
+    width: 650px;
+    
+}
+
+.quoted{
+    text-align: rigth;
+}
+
+.fifthrow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.fifthrowcont{
+    display:flex;
+}
+
