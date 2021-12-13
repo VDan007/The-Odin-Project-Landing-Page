@@ -19,3 +19,25 @@ ul{
 li{
     margin-right: 20px;
 }
+
+.secrow{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.seccont{
+    display:flex;
+
+}
+
+.secchild1{
+    flex:1;
+}
+
+.secchild2{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
