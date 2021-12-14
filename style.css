@@ -1,12 +1,22 @@
 body{
     display:flex;
     flex-direction:column;
+    margin:0;
 }
 
 header{
     display:flex;
     justify-content: space-around;
+    background-color: #1F2937;
     
+    
+    
+}
+
+header p{
+    font-size:24px;
+    color:#F9FAF8;
+    margin:10px;
 }
 
 ul{
@@ -18,16 +28,33 @@ ul{
 
 li{
     margin-right: 20px;
+    color:#E5E7EB;
+    font-size:18px;
 }
 
 h2{
     font-size: 48px;
+    color:#F9FAF8;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
 
 .secrow{
 display:flex;
 justify-content: center;
 align-items: center;
+background-color: #1F2937;
+padding:130px;
+}
+
+.secrow p{
+    font-size:18px;
+    color:#E5E7EB;
 }
 
 .seccont{
@@ -37,6 +64,7 @@ align-items: center;
 
 .secchild1{
     flex:1;
+    margin-bottom:7px;
 }
 
 .secchild2{
@@ -44,6 +72,15 @@ align-items: center;
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: grey;
+}
+
+.firstbutton{
+    color:white;
+    background-color:#3882F6;
+    border-radius:10px;
+    padding:5px 25px 5px 25px;
+   
 }
 
 
@@ -51,6 +88,12 @@ align-items: center;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+h3{
+    font-size:36px;
+    font-weight:extra-bold;
+    color:#1F2937;
 }
 
 .thirdrowtext{
@@ -61,7 +104,7 @@ align-items: center;
 .thirdrowcont{
     display:flex;
     justify-content: center;
-    gap:35px;
+    gap:50px;
 }
 
 .cubecont{
@@ -69,10 +112,15 @@ align-items: center;
     text-align: center;
 }
 
+.cubecont p{
+    margin: 16px 5px 16px 5px;
+}
+
 .cube{
     height: 150px;
     width: 150px;
-    border: 1px solid blue;
+    border: 3px solid blue;
+    border-radius:10px;
 }
 
 
