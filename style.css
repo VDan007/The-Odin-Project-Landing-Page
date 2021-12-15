@@ -35,6 +35,7 @@ li{
 h2{
     font-size: 48px;
     color:#F9FAF8;
+    text-align:left;
 }
 
 footer{
@@ -65,7 +66,18 @@ padding:130px;
 .secchild1{
     flex:1;
     margin-bottom:7px;
+
 }
+
+.secchild1 h2{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.secchild1 p{
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
 
 .secchild2{
     flex:1;
@@ -80,6 +92,7 @@ padding:130px;
     background-color:#3882F6;
     border-radius:10px;
     padding:5px 25px 5px 25px;
+    border: none;
    
 }
 
@@ -88,6 +101,7 @@ padding:130px;
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom:120px;
 }
 
 h3{
@@ -96,9 +110,7 @@ h3{
     color:#1F2937;
 }
 
-.thirdrowtext{
-    
-}
+
 
 
 .thirdrowcont{
@@ -130,26 +142,66 @@ background-color: lightgray;
 display:flex;
 justify-content: center;
 align-items: center;
+padding-top:80px;
+padding-bottom:80px;
 }
 
 .fourthrowcont{
-    width: 650px;
-    
+    max-width: 600px;
 }
 
-.quoted{
-    text-align: rigth;
+.fourthrowcont p{
+    margin-top:3px;
+    margin-bottom:3px;
+    color:#1F2937;
+    font-family: light italic;
+    font-size:36px;
+
+}
+
+#thor{
+    text-align:right;
+    font-weight: bold;
+    font-size:26px;
+    
 }
 
 .fifthrow{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-top:90px;
+    padding-bottom:90px;
 
 }
 
 
 .fifthrowcont{
+    width: 950px;
     display:flex;
+    background-color:#3882F6;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    border-radius:10px;
+    
+
+
 }
+
+.fifthrowcont p{
+    margin:0px;
+    font-size:20px;
+}
+.button2{
+    color:white;
+    background-color:#3882F6;
+    box-shadow: none;
+    border:1px solid white;
+    padding:5px 20px 5px 20px;
+    border-radius:10px;
+}
+
 
