@@ -39,6 +39,7 @@ h2{
 }
 
 footer{
+    color:white;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -60,12 +61,14 @@ padding:130px;
 
 .seccont{
     display:flex;
+    width:1200px;
 
 }
 
 .secchild1{
     flex:1;
     margin-bottom:7px;
+    width:600px;
 
 }
 
@@ -75,7 +78,7 @@ padding:130px;
 }
 .secchild1 p{
     margin-top:0px;
-    margin-bottom:10px;
+    margin-bottom:0px;
 }
 
 
@@ -90,9 +93,10 @@ padding:130px;
 .firstbutton{
     color:white;
     background-color:#3882F6;
-    border-radius:10px;
+    border-radius:5px;
     padding:5px 25px 5px 25px;
     border: none;
+    margin-top: 8px;
    
 }
 
@@ -138,6 +142,7 @@ h3{
 
 
 .fourthrow{
+
 background-color: lightgray;
 display:flex;
 justify-content: center;
@@ -157,6 +162,12 @@ padding-bottom:80px;
     font-family: light italic;
     font-size:36px;
 
+}
+
+#quote{
+    font-style: italic;
+    color: #1F2937;
+    
 }
 
 #thor{
@@ -192,16 +203,22 @@ padding-bottom:80px;
 }
 
 .fifthrowcont p{
-    margin:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:130px;
     font-size:20px;
+}
+
+.signUp{
+    color: #E5E7EB;
 }
 .button2{
     color:white;
     background-color:#3882F6;
     box-shadow: none;
-    border:1px solid white;
+    border:2px solid white;
     padding:5px 20px 5px 20px;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 
